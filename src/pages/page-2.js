@@ -10,7 +10,7 @@ const SecondPage = () => (
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>
-    <div className="w-full bg-pink-500  lg:w-4/12 px-4 lg:order-1">
+    <div className="w-full bg-pink-100  lg:w-4/12 px-4 lg:order-1">
                     <div className="flex justify-center py-4 lg:pt-4 pt-8">
                       <div className="mr-4 p-3 text-center">
                         <span className="text-xl font-bold block uppercase tracking-wide text-gray-700">
