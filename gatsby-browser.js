@@ -8,3 +8,9 @@
 import "tailwindcss/base.css"
 import "tailwindcss/components.css"
 import "tailwindcss/utilities.css"
+
+export const onInitialClientRender = () => {
+  setTimeout(function() {
+      document.getElementById("___loader").style.display = "none"
+  }, 1000)
+}
