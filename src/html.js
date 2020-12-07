@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Loader from './images/Loader.gif'
+import Triangles from './images/Triangles.svg'
 
 export default function HTML(props) {
   return (
@@ -21,7 +21,7 @@ export default function HTML(props) {
               id="___loader"
               style={{
                 alignItems: "center",
-                backgroundColor: "#F2F2F2",
+                backgroundColor: "#efefef",
                 display: "flex",
                 justifyContent: "center",
                 position: "absolute",
@@ -33,7 +33,7 @@ export default function HTML(props) {
               }}
            >
               <img 
-                src={Loader} 
+                src={Triangles} 
                 alt="loading spinner" 
                 width="150" 
                 height="150"
