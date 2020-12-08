@@ -595,3 +595,11 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+*{
+  background-color: #efefef;
+}
+
+.color2{
+  background-color: #be202000;
+}

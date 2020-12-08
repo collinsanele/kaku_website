@@ -20,16 +20,15 @@ export default function HTML(props) {
         key={`loader`}
               id="___loader"
               style={{
-                alignItems: "center",
-                backgroundColor: "#efefef",
-                display: "flex",
-                justifyContent: "center",
                 position: "absolute",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                zIndex: 100,
                 left: 0,
                 top: 0,
                 right: 0,
                 bottom: 0,
-                zIndex: 100,
               }}
            >
               <img 
