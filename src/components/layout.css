@@ -596,10 +596,8 @@ pre tt:after {
   }
 }
 
-*{
-  background-color: #efefef;
+body {
+  background-color: #e6eaea;
 }
 
-.color2{
-  background-color: #be202000;
-}
+

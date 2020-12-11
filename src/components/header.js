@@ -8,15 +8,13 @@ import { Rotate as Hamburger } from 'hamburger-react'
 const Header = ({ siteTitle, fixed }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-  <header>
-      <div className="flex flex-wrap">
-        <div className="w-full h-12">
-          <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg color2 fixed ">
-            <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-              <div className="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start">
+  <header className="flex flex-wrap fixed w-full h-12 bg-transparent ">
+          <nav className=" flex flex-wrap items-center justify-between px-2 navbar-expand-lg w-full bg-transparent">
+            <div className="container px-4 w-full flex flex-wrap items-center justify-between bg-transparent">
+              <div className="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start bg-transparent">
                 <Link
                   to="/"
-                  className="font-bold inline-block mr-4 py-2 whitespace-no-wrap uppercase text-blue"
+                  className="font-bold inline-block mr-4 py-2 whitespace-no-wrap uppercase text-blue bg-transparent"
                 >
                   {siteTitle}
                 </Link>
@@ -25,19 +23,19 @@ const Header = ({ siteTitle, fixed }) => {
                   type="button"
                   onClick={() => setMenuOpen(!menuOpen)}
                 >
-                  <Hamburger/>
+                  <Hamburger size={16} className="bg-transparent color3"/>
                 </button>
               </div>
               
               <div
                 className={
-                  "lg:flex flex-grow items-center" +
+                  "lg:flex flex-grow bg-transparent items-center" +
                   (menuOpen ? " flex" : " hidden")
                 }
                 id="example-navbar-info"
               >
-                <ul className="flex flex-col lg:flex-row list-none lg:ml-auto my-0">
-                  <li className="nav-item">
+                <ul className="flex flex-col lg:flex-row list-none lg:ml-auto my-0 pt-4 bg-transparent">
+                  <li className="nav-item bg-transparent">
                     <a
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue hover:opacity-75"
                       href="#pablo"
@@ -45,7 +43,7 @@ const Header = ({ siteTitle, fixed }) => {
                       Portfolio
                     </a>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item bg-transparent">
                     <a
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue hover:opacity-75"
                       href="#pablo"
@@ -53,7 +51,7 @@ const Header = ({ siteTitle, fixed }) => {
                       Pricing
                     </a>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item bg-transparent">
                     <a
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue hover:opacity-75"
                       href="#pablo"
@@ -61,7 +59,7 @@ const Header = ({ siteTitle, fixed }) => {
                       Blog
                     </a>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item bg-transparent">
                     <a
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue hover:opacity-75"
                       href="#pablo"
@@ -69,7 +67,7 @@ const Header = ({ siteTitle, fixed }) => {
                       About
                     </a>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item bg-transparent">
                     <a
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue hover:opacity-75"
                       href="#pablo"
@@ -81,8 +79,6 @@ const Header = ({ siteTitle, fixed }) => {
               </div>
             </div>
           </nav>
-        </div>
-      </div>
   </header>
 )}
 
