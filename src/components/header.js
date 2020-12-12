@@ -29,8 +29,8 @@ const Header = ({ siteTitle }) => {
               
               <div
                 className={
-                  "lg:flex flex-grow items-center " +
-                  (menuOpen ? " flex bgcolor" : " hidden bg-transparent")
+                  "lg:flex flex-grow items-center bg-transparent" +
+                  (menuOpen ? " flex bgcolor" : " hidden")
                 }
                 id="example-navbar-info"
               >
