@@ -1,11 +1,11 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
-import { Rotate as Hamburger } from 'hamburger-react'
+import { Squeeze as Hamburger } from 'hamburger-react'
 
 
 
-const Header = ({ siteTitle, fixed }) => {
+const Header = ({ siteTitle }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
   <header className="flex flex-wrap fixed w-full h-12 bg-transparent ">
@@ -23,7 +23,7 @@ const Header = ({ siteTitle, fixed }) => {
                   type="button"
                   onClick={() => setMenuOpen(!menuOpen)}
                 >
-                  <Hamburger size={16} className="bg-transparent color3"/>
+                  <Hamburger rounded size={16} className="bg-transparent"/>
                 </button>
               </div>
               
@@ -44,12 +44,12 @@ const Header = ({ siteTitle, fixed }) => {
                     </Link>
                   </li>
                   <li className="nav-item bg-transparent">
-                    <a
+                    <Link
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue hover:opacity-75"
-                      href="#pablo"
+                      to="/Pricing/"
                     >
                       Pricing
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item bg-transparent">
                     <a
@@ -60,20 +60,20 @@ const Header = ({ siteTitle, fixed }) => {
                     </a>
                   </li>
                   <li className="nav-item bg-transparent">
-                    <a
+                    <Link
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue hover:opacity-75"
-                      href="#pablo"
+                      to="/About/"
                     >
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item bg-transparent">
-                    <a
+                    <Link
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue hover:opacity-75"
-                      href="#pablo"
+                      to="/Contact/"
                     >
                       Contact
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
