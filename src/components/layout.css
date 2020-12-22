@@ -596,7 +596,7 @@ pre tt:after {
   }
 }
 
-body, .bgcolor {
+.bgcolor {
   background-color: #e6eaea;
 }
 
