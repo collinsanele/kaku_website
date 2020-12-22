@@ -8,7 +8,7 @@ import { Squeeze as Hamburger } from 'hamburger-react'
 const Header = ({ siteTitle }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-  <header className="flex flex-wrap fixed w-full h-12 bg-transparent ">
+  <header className="flex flex-wrap fixed w-full h-12 bgcolor ">
           <nav className=" flex flex-wrap items-center justify-between px-2 navbar-expand-lg w-full bg-transparent">
             <div className="px-4 w-full flex flex-wrap items-center justify-between bg-transparent">
               <div className="w-full relative flex justify-between lg:w-auto pr-4 lg:static lg:block lg:justify-start bg-transparent">
@@ -67,7 +67,7 @@ const Header = ({ siteTitle }) => {
                       About
                     </Link>
                   </li>
-                  <li className="nav-item bg-transparent">
+                  <li className="nav-item">
                     <Link
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue hover:opacity-75"
                       to="/Contact/"
