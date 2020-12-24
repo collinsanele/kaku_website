@@ -8,7 +8,7 @@ import { Squeeze as Hamburger } from 'hamburger-react'
 const Header = ({ siteTitle }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-  <header className="flex flex-wrap fixed w-full h-14 bgcolor">
+  <header className="flex flex-wrap w-full h-14 bgcolor">
           <nav className=" flex flex-wrap items-center justify-between px-2 navbar-expand-lg w-full">
             <div className="px-4 w-full flex flex-wrap items-center justify-between">
               <div className="w-full relative flex justify-between lg:w-auto pr-4 lg:static lg:block lg:justify-start">
@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => {
               <div
                 className={
                   "lg:flex flex-grow items-center" +
-                  (menuOpen ? " flex bgcolor" : " hidden")
+                  (menuOpen ? " flex bgcolor z-50 shadow" : " hidden")
                 }
                 id="example-navbar-info"
               >
