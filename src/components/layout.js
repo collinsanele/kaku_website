@@ -32,8 +32,8 @@ const Layout = ({ children }) => {
       <div >
         <main>{children}</main>
         <footer >
-          <div className="container mx-auto px-4 bg-black">	
-		    <div className="flex flex-wrap">
+          <div className="mx-auto px-4 bg-black text-gray-100">	
+		    <div className="flex flex-wrap container ">
 
 
 			<div className="w-full lg:w-4/12 px-4 ml-auto">
