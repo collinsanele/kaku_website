@@ -20,7 +20,7 @@ const IndexPage = () => {
         <HeroImage />
         <div className="w-full h-full absolute top-0 left-0 bg-black opacity-50"></div>
       </div>
-      <div className="w-11/12 mx-auto align-center justify-center">
+      <div className="w-8/12 mx-auto align-center justify-center">
        
         <h1>DUMMY CONTENT 1</h1>
         
