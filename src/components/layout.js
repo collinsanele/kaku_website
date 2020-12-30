@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer >
           <div className="bg-black w-full text-gray-400 -mt-7">	
-		    <div className="flex flex-wrap w-8/12 mx-auto pt-7">
+		    <div className="flex flex-wrap w-11/12 lg:w-8/12 mx-auto py-7">
 
 
 			<div className="w-full lg:w-4/12 px-4 ml-auto text-sm font-semibold">
@@ -43,11 +43,11 @@ const Layout = ({ children }) => {
 			    KAKU
 			    </h3>
 			    <div className="flex">
-				<span><img src={Phone} alt="Phone:" className="filterg4"/></span>
+				<span className="h-6 pr-1"><img src={Phone} alt="Phone:" className="filterg4"/></span>
 				<a className="hover:text-gray-900" href="tel:+2347064492879">0706-4492-879</a>
 			    </div>
 			    <div className="flex">
-				<span><img src={Email} alt="Email:" className="filterg4"/></span>
+				<span className="h-6 pr-1"><img src={Email} alt="Email:" className="filterg4"/></span>
 				<a className="hover:text-gray-900" href="mailto:baqi@gmail.com">baqi@gmail.com</a>
 			    </div>
 			    <p className="m-0">
@@ -55,9 +55,9 @@ const Layout = ({ children }) => {
 			    <br/>
 			    Gwarinpa Estate
 			    <br/>
-			    Abuja Nigeria
+			    Abuja Nigeria.
 			    </p>
-			    <p>Digital by <span className="text-gray-600 hover:text-gray-900">Haze</span></p>
+			    <p>Digital by <span className="text-gray-500 hover:text-gray-900">Haze</span></p>
 			</div>
 
 
