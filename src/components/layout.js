@@ -16,6 +16,7 @@ import "fontsource-open-sans"
 import "fontsource-noto-sans-jp"
 import Phone from '../images/Phone.svg'
 import Email from '../images/Email.svg'
+import Linkedin from '../images/Linkedin.svg'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -61,7 +62,7 @@ const Layout = ({ children }) => {
 			</div>
 
 
-			<div className="w-full lg:w-4/12 px-4 ml-auto">
+			<div className="w-full lg:w-4/12 px-4 ml-auto pb-7">
 			    <span className="block noto uppercase text-lg font-bold mb-2">
 			    Our Company
 			    </span>
@@ -165,7 +166,8 @@ const Layout = ({ children }) => {
 
 		    </div>
 		</div>
-
+		<div className="w-full flex align-center justify-center mb-8"><a href="#"><img src={Linkedin} alt="Linkedin" className="filterg4"/></a></div>
+	  	<div className="w-full flex align-center justify-center text-sm text-gray-400><p>Copyright © 2021 KAKU Inc</p></div>
         </footer>
       </div>
     </>
