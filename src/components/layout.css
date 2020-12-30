@@ -594,4 +594,6 @@ pre tt:after {
   background-color: #e6eaea;
 }
 
-
+.noto {
+ font-family: Noto Sans JP
+}
