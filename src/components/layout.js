@@ -62,7 +62,7 @@ const Layout = ({ children }) => {
 
 
 			<div className="w-full lg:w-4/12 px-4 ml-auto">
-			    <span className="block uppercase text-lg font-bold mb-2">
+			    <span className="block noto uppercase text-lg font-bold mb-2">
 			    Our Company
 			    </span>
 			    <ul className="list-unstyled">
@@ -110,7 +110,7 @@ const Layout = ({ children }) => {
 			</div>
 
 			<div className="w-full lg:w-4/12 px-4 ml-auto">
-			    <span className="block uppercase text-lg font-bold mb-2">
+			    <span className="block noto uppercase text-lg font-bold mb-2">
 			    Our Services
 			    </span>
 			    <ul className="list-unstyled">
