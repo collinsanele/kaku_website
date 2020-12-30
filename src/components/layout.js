@@ -166,7 +166,7 @@ const Layout = ({ children }) => {
 
 		    </div>
 		</div>
-		<div className="w-full flex align-center justify-center bg-black mb-8"><a href="#"><img src={Linkedin} alt="Linkedin" className="filterg4"/></a></div>
+		<div className="w-full flex align-center justify-center bg-black pb-7"><a href="#"><img src={Linkedin} alt="Linkedin" className="filterg4"/></a></div>
 	  	<div className="w-full flex align-center justify-center bg-black text-xs text-gray-400"><p>Copyright © 2021 KAKU Inc.</p></div>
         </footer>
       </div>
