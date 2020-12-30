@@ -597,3 +597,8 @@ pre tt:after {
 .noto {
  font-family: Noto Sans JP
 }
+
+.filterg4 {
+	filter: invert(90%) sepia(17%) saturate(155%) hue-rotate(170deg) brightness(94%) contrast(88%);
+}
+
