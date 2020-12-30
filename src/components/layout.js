@@ -36,8 +36,8 @@ const Layout = ({ children }) => {
 		    <div className="flex flex-wrap w-8/12 mx-auto pt-7">
 
 
-			<div className="w-full lg:w-4/12 px-4 ml-auto">
-			    <h3 className="text-4xl font-bold">
+			<div className="w-full lg:w-4/12 px-4 ml-auto text-sm font-semibold">
+			    <h3 className="text-4xl font-bold noto">
 			    KAKU
 			    </h3>
 			    <div className="flex">
