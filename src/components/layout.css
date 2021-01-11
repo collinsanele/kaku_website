@@ -602,3 +602,7 @@ pre tt:after {
 	filter: invert(90%) sepia(17%) saturate(155%) hue-rotate(170deg) brightness(94%) contrast(88%);
 }
 
+.bg-clip-text {
+  -webkit-background-clip: text;
+}
+

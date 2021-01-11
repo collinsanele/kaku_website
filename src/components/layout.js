@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
 
 
 			<div className="w-full lg:w-4/12 px-4 ml-auto text-sm font-semibold">
-			    <h3 className="text-4xl font-bold noto">
+			    <h3 className="inline text-4xl font-bold noto text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500">
 			    KAKU
 			    </h3>
 			    <div className="flex">
@@ -162,8 +162,6 @@ const Layout = ({ children }) => {
 				</li>
 			    </ul>
 			</div>
-
-
 		    </div>
 		</div>
 		<div className="w-full flex align-center justify-center bg-black pb-7"><a href="#"><img src={Linkedin} alt="Linkedin" className="filterg4"/></a></div>
