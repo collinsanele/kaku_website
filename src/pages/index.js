@@ -88,7 +88,39 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
-      <Contact/>
+      <div className="bg-gray-400 py-12 h-full">
+            <div className="bg-white max-w-md m-auto rounded object-none object-center" style={{boxShadow: "0 2px 30px 0 rgba(0,0,0,.63)"}}>
+              <h2 className="text-5xl font-black text-center py-12">Let's write amazing stuff together.</h2>
+              <form onSubmit={handleOnSubmit} className="p-8 max-w-md">
+                <div className="grid grid-cols-1 gap-6">
+                  <label className="block">
+                      <span className="text-black text-sm font-bold">Full Name</span>
+                      <input className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:bg-white focus:ring focus:ring-black 	focus:ring-opacity-100" type="text" name="name" placeholder="ex. John Smith" aria-describedby="nameHelp"/>
+                  </label>
+                  <label className="block" required="required">
+                      <span className="text-black text-sm font-bold">Email</span>
+                      <input className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:bg-white focus:ring focus:ring-black 					  focus:ring-opacity-100" type="email" name="email" placeholder="ex. johnsmith@example.com" aria-describedby="emailHelp"/>
+                  </label>
+                  <label className="block" required="required">
+                      <span className="text-black text-sm font-bold">Phone number</span>
+                      <input className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:bg-white focus:ring focus:ring-black 					  focus:ring-opacity-100" type="text" name="tel" placeholder="ex. 123-456-7890" aria-describedby="telHelp"/>
+                  </label>
+                  <label className="block" required="required">
+                      <span className="text-black text-sm font-bold">Message</span>
+                      <input className="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:bg-white focus:ring focus:ring-black 					  focus:ring-opacity-100" type="text" name="tel" placeholder="ex. Hello! I have a large Blog project and need agency help. My 					          preferred date of completion is in 12 weeks time." rows="3"/>
+                  </label>
+                </div>
+                <button type="submit" disabled={serverState.submitting} className="text-center items-center justify-center flex-shrink-0 text-white bg-black border-0 p-2 focus:outline-none bg-gradient-to-r hover:from-blue-500 hover:to-green-500 rounded font-bold m-10">
+                  Send message
+                </button>
+                {serverState.status && (
+                    <p className={!serverState.status.ok ? "errorMsg" : ""}>
+                    {serverState.status.msg}
+                    </p>
+                )}
+              </form>
+            </div>                 
+          </div> 
     </div>
   </Layout>
 )};
