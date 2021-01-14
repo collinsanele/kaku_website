@@ -40,7 +40,7 @@ const Contact = () => {
     return (
         <Layout>
           <SEO title="Contact" />
-          <section className="text-gray-600 body-font relative">
+          <div className="text-gray-600 body-font relative">
               <div className="absolute inset-0 bg-gray-300">
                 <iframe style="filter: grayscale(1) contrast(1.2) opacity(0.4);" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://www.google.com/maps/place/3rd+Ave,+Gwarinpa,+Abuja/@9.0968695,7.4075129,17z/data=!3m1!4b1!4m5!3m4!1s0x104e756c1f179b5b:0x45e76b2cd4962f33!8m2!3d9.0968695!4d7.4097016" width="100%" height="100%" frameborder="0"></iframe>
               </div>
@@ -77,7 +77,7 @@ const Contact = () => {
                           </form>
                 </div>
               </div>
-            </section> 
+            </div> 
         </Layout>
     )};
   
