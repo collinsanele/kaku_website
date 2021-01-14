@@ -120,9 +120,9 @@ const IndexPage = () => {
         </div>
       </section>
       <div className="bg-gray-400 py-12 h-full">
-            <div className="bg-white max-w-md m-auto rounded object-none object-center" style={{boxShadow: "0 2px 30px 0 rgba(0,0,0,.63)"}}>
+            <div className="bg-white max-w-lg m-auto rounded object-none object-center" style={{boxShadow: "0 2px 30px 0 rgba(0,0,0,.63)"}}>
               <h2 className="text-5xl font-black text-center pt-12">Let's write amazing stuff together.</h2>
-              <form onSubmit={handleOnSubmit} className="p-8 max-w-md">
+              <form onSubmit={handleOnSubmit} className="p-8 max-w-lg">
                 <div className="grid grid-cols-1 gap-6">
                   <label className="block">
                       <span className="text-black text-sm font-bold">Full Name</span>
