@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import HeroImage from "../components/image"
 import SEO from "../components/seo"
+import Contact from "./Contact"
 
 
 
@@ -87,6 +88,7 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
+      <Contact/>
     </div>
   </Layout>
 )};
