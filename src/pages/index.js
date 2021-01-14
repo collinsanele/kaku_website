@@ -1,4 +1,5 @@
-import React from "react"
+import React, { useState }  from "react";
+import axios from "axios";
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
@@ -11,6 +12,36 @@ import Contact from "./Contact"
 
 
 const IndexPage = () => {
+  
+    const [serverState, setServerState] = useState({
+      submitting: false,
+      status: null
+    });
+    const handleServerResponse = (ok, msg, form) => {
+      setServerState({
+        submitting: false,
+        status: { ok, msg }
+      });
+      if (ok) {
+        form.reset();
+      }
+    };
+    const handleOnSubmit = e => {
+      e.preventDefault();
+      const form = e.target;
+      setServerState({ submitting: true });
+      axios({
+        method: "POST",
+        url: "https://getform.io/f/a4dd575d-f065-4e4b-870c-063daf7ed820",
+        data: new FormData(form)
+      })
+        .then(r => {
+          handleServerResponse(true, "Thanks!", form);
+        })
+        .catch(r => {
+          handleServerResponse(false, r.response.data.error, form);
+        });
+    };
 
 
   return (
