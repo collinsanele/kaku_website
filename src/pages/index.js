@@ -66,7 +66,7 @@ const IndexPage = () => {
         <div className="py-24">
           <div className="flex flex-col sm:flex-row sm:items-center items-start mx-auto">
             <h3 className="flex-grow sm:pr-16 text-2xl font-medium text-black mb-0">A one-stop solution to all your brands’ content needs.</h3>
-            <button className="flex-shrink-0 text-gray-200 bg-black border-0 py-2 px-8 focus:outline-none bg-gradient-to-r hover:from-blue-500 hover:to-green-500 rounded text-lg mt-10 sm:mt-0">Talk to us</button>
+            <button className="flex-shrink-0 text-gray-200 bg-black border-0 py-2 px-8 focus:outline-none bg-gradient-to-r hover:from-blue-500 hover:to-green-500 rounded text-lg mt-10 sm:mt-0"><Link to="/Contact/">Talk to us</Link></button>
           </div>
         </div>
       </section>
