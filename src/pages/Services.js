@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import Fixedbutton from "../components/Fixedbutton";
 
 
-const Portfolio = () => (
+const Services = () => (
   <Layout >
     <SEO title="Services" />
     <div  className="bgcolor">
