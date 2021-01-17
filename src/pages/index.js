@@ -5,9 +5,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import HeroImage from "../components/image"
 import SEO from "../components/seo"
-import Contact from "./Contact"
-
-
+import Fixedbutton from "../components/Fixedbutton";
 
 
 
@@ -47,6 +45,7 @@ const IndexPage = () => {
   return (
   <Layout >
     <SEO title="Home" />
+    <Fixedbutton/>
     <div  className="bgcolor">
       {/* hero section */}
       <div className="w-full bg-cover relative" style={{ height: `70vh`}}>

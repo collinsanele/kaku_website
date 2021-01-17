@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
 		    <div className="flex flex-wrap w-11/12 lg:w-8/12 mx-auto py-7">
 
 
-			<div className="w-full lg:w-4/12 px-4 ml-auto text-sm font-semibold">
+			<div className="w-full lg:w-4/12 px-4 ml-auto text-sm">
 			    <h3 className="inline text-4xl font-bold noto text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500">
 			    KAKU
 			    </h3>
@@ -68,42 +68,42 @@ const Layout = ({ children }) => {
 			    </span>
 			    <ul className="list-unstyled">
 				<li>
-				<a className="hover:text-white font-semibold pb-1 text-sm"
+				<a className="hover:text-white pb-1 text-sm"
 				href="#">Home
 				</a>
 				</li>
 				<li>
-				<a className="hover:text-white font-semibold pb-1 text-sm"
+				<a className="hover:text-white pb-1 text-sm"
 				href="#">Blog
 				</a>
 				</li>
 				<li>
-				<a className="hover:text-white font-semibold pb-1 text-sm"
+				<a className="hover:text-white pb-1 text-sm"
 				href="#">Portfolio
 				</a>
 				</li>
 				<li>
-				<a className="hover:text-white font-semibold pb-1 text-sm"
+				<a className="hover:text-white pb-1 text-sm"
 				href="#">Pricing
 				</a>
 				</li>
 				<li>
-				<a className="hover:text-white font-semibold pb-1 text-sm"
+				<a className="hover:text-white pb-1 text-sm"
 				href="#">About Us
 				</a>
 				</li>
 				<li>
-				<a className="hover:text-white font-semibold pb-1 text-sm"
+				<a className="hover:text-white pb-1 text-sm"
 				href="#">Contact us
 				</a>
 				</li>
 				<li>
-				<a className="hover:text-white font-semibold pb-1 text-sm"
+				<a className="hover:text-white pb-1 text-sm"
 				href="#">Privacy policy
 				</a>
 				</li>
 				<li>
-				<a className="hover:text-white font-semibold pb-1 text-sm"
+				<a className="hover:text-white pb-1 text-sm"
 				href="#">Accessibility policy
 				</a>
 				</li>
@@ -115,31 +115,31 @@ const Layout = ({ children }) => {
 			    Our Services
 			    </span>
 			  	<ul className="list-unstyled">
-						<li className="hover:text-white font-semibold pb-1 text-sm">
+						<li className="hover:text-white pb-1 text-sm">
 						Articles and Blogs
 						</li>
-						<li className="hover:text-white font-semibold pb-1 text-sm">
+						<li className="hover:text-white pb-1 text-sm">
 						Advertorials
 						</li>
-						<li className="hover:text-white font-semibold pb-1 text-sm"
+						<li className="hover:text-white pb-1 text-sm"
 						>Web and Email Copies
 						</li>
-						<li className="hover:text-white font-semibold pb-1 text-sm">
+						<li className="hover:text-white pb-1 text-sm">
 						Scripts
 						</li>
-						<li className="hover:text-white font-semibold pb-1 text-sm">
+						<li className="hover:text-white pb-1 text-sm">
 						UX Writing
 						</li>
-						<li className="hover:text-white font-semibold pb-1 text-sm">
+						<li className="hover:text-white pb-1 text-sm">
 						Website Content
 						</li>
-						<li className="hover:text-white font-semibold pb-1 text-sm">
+						<li className="hover:text-white pb-1 text-sm">
 						Advertisement Strategies
 						</li>
-						<li className="hover:text-white font-semibold pb-1 text-sm">
+						<li className="hover:text-white pb-1 text-sm">
 						Media Content
 						</li>
-						<li className="hover:text-white font-semibold pb-1 text-sm">
+						<li className="hover:text-white pb-1 text-sm">
 						Competition Research
 						</li>
 			    </ul>
