@@ -47,13 +47,15 @@ const IndexPage = () => {
     <SEO title="Home" />
     <Fixedbutton/>
     <div  className="bgcolor">
+    <div className="h-14"></div>
+
       {/* hero section */}
       <div className="w-full bg-cover relative" style={{ height: `70vh`}}>
         <HeroImage />
         <div className="w-full h-full absolute top-0 left-0 bg-black opacity-50"></div>
         <div className="w-full mx-auto h-full absolute top-0 left-0 align-center justify-center flex items-center text-gray-100">
           <div  className="w-1/2">
-            <p className="text-right text-gray-200 font-black my-auto tracking-tighter text-5xl md:text-7xl lg:text-9xl">Kaku.ng</p>
+            <p className="text-right text-gray-200 font-black my-auto tracking-tighter text-7xl md:text-8xl lg:text-9xl">Kaku</p>
           </div>
           <div className="w-1/2">
             <p className="mb-0 text-left pl-4 max-w-sm text-gray-200 text-md">Developing ever-green <span className="text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500">content</span> strategies for your business</p>

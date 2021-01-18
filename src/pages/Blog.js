@@ -11,6 +11,7 @@ const Blog = () => (
     <SEO title="Blog" />
     <div  className="bgcolor">
       <Fixedbutton/>
+      <div className="h-14"></div>
       <h2 className="h-screen">Blog</h2>
     </div>
   </Layout>

@@ -45,7 +45,7 @@ const Contact = () => {
                 <iframe style={{filter: 'contrast(1.2) opacity(0.4)'}} marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.6361092911056!2d7.4075075504596635!3d9.096874790394665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e756c1f179b5b%3A0x45e76b2cd4962f33!2s3rd%20Ave%2C%20Gwarinpa%2C%20Abuja!5e0!3m2!1sen!2sng!4v1610662447237!5m2!1sen!2sng" width="100%" height="100%" frameborder="0"></iframe>
               </div>
               <div className="container px-5 py-24 mx-auto flex">
-                <div className="xl:w-1/3 md:w-3/4 bg-white rounded-lg flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10" style={{boxShadow: "0 2px 30px 0 rgba(0,0,0,.63)"}} >
+                <div className="xl:w-1/3 md:w-3/4 bg-white rounded-lg flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-9" style={{boxShadow: "0 2px 30px 0 rgba(0,0,0,.63)"}} >
                   <h2 className="text-5xl font-black text-center pt-12">Let's write amazing stuff together.</h2>
                           <form onSubmit={handleOnSubmit} className="p-8">
                             <div className="grid grid-cols-1 gap-6">

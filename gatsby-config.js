@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `KAKU`,
+    title: `Kaku`,
     description: `Kaku inc`,
-    author: `@gatsbyjs`,
+    author: `haze`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

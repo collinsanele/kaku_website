@@ -11,6 +11,7 @@ const Portfolio = () => (
     <SEO title="Portfolio" />
     <div  className="bgcolor">
       <Fixedbutton/>
+      <div className="h-14"></div>
       <h2 className="h-screen">Portfolio</h2>
     </div>
   </Layout>
