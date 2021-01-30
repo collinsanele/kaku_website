@@ -142,7 +142,7 @@ const IndexPage = () => {
                       <textarea className="mt-1 p-3 block w-full rounded-md bg-gray-100 border-transparent focus:bg-white focus:ring focus:ring-black focus:ring-opacity-100" type="text" name="message" placeholder="ex. Hello! I have a large Blog project and need agency help. My preferred date of completion is in 12 weeks time." rows="3"></textarea>
                   </label>
                 </div>
-                <button type="submit" disabled={serverState.submitting} className="text-center text-sm flex-shrink-0 text-white bg-black border-0 p-2 mt-8 focus:outline-none bg-gradient-to-r hover:from-blue-500 hover:to-green-500 rounded font-bold">
+                <button type="submit" disabled={serverState.submitting} className="text-center text-sm flex-shrink-0 text-white bg-black border-0 p-2 mt-8 focus:outline-none bg-gradient-to-r hover:from-blue-500 hover:to-green-500 rounded font-bold transition">
                   Send message
                 </button>
                 {serverState.status && (
