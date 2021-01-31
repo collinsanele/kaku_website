@@ -34,6 +34,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div >
         <main>{children}</main>
+		{/* FOOTER */}
         <footer >
         <div className="bg-black w-full text-gray-400 -mt-7 pt-7">	
 		    <div className="flex flex-wrap w-11/12 lg:w-8/12 mx-auto py-7">
@@ -146,7 +147,7 @@ const Layout = ({ children }) => {
 			</div>
 		    </div>
 		</div>
-			<div className="w-full flex align-center justify-center bg-black pb-7 focus:outline-none"><a href="https://www.linkedIn.com/company/kaku-ng"><img src={Linkedin} alt="Linkedin" className="filterg4 focus:outline-none "/></a></div>
+			<div className="w-full flex align-center justify-center bg-black pb-7 focus:outline-none"><a href="https://www.linkedIn.com/company/kaku-ng"><img src={Linkedin} alt="Linkedin" className="filterg4 focus:outline-none transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110"/></a></div>
 	  	<div className="w-full flex align-center justify-center bg-black text-xs text-gray-400"><p>Copyright © 2021 KAKU Inc.</p></div>
         </footer>
       </div>

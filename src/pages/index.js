@@ -64,12 +64,18 @@ const IndexPage = () => {
       </div>
       {/* cta section */}
       <section className="w-11/12 lg:w-8/12 mx-auto">
-        <div className="py-24">
-          <div className="flex flex-col sm:flex-row sm:items-center items-start mx-auto">
-            <h3 className="flex-grow sm:pr-16 text-2xl font-medium text-black mb-0">A one-stop solution to all your brands’ content needs.</h3>
-            <button className="flex-shrink-0 text-gray-200 bg-black border-0 py-2 px-8 focus:outline-none bg-gradient-to-r hover:from-blue-500 hover:to-green-500 rounded text-lg mt-10 sm:mt-0"><Link to="/Contact/">Talk to us</Link></button>
-          </div>
-        </div>
+              <div className="py-24">
+                  <div className="flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+                      <h3 className="flex-grow sm:pr-16 text-2xl font-medium text-black mb-0">
+                          A one-stop solution to all your brands’ content needs.
+                      </h3>
+                      <button className="transition transform duration-1000 ease-in-out hover:-translate-y-1 hover:scale-150 border border-green-500 flex-shrink-0 text-gray-200 border-0 py-2 px-8 focus:outline-none bg-black rounded text-lg mt-10 sm:mt-0" style={{boxShadow: "0 2px 10px 0 rgba(0,0,0,.63)"}}>
+                              <Link to="/Contact/">
+                                    Talk to us
+                              </Link>
+                      </button>
+                  </div>
+              </div>
       </section>
       {/* About us */}
       <section className="w-full bg-black text-gray-200">
@@ -142,15 +148,15 @@ const IndexPage = () => {
                       <textarea className="mt-1 p-3 block w-full rounded-md bg-gray-100 border-transparent focus:bg-white focus:ring focus:ring-black focus:ring-opacity-100" type="text" name="message" placeholder="ex. Hello! I have a large Blog project and need agency help. My preferred date of completion is in 12 weeks time." rows="3"></textarea>
                   </label>
                 </div>
-                <button type="submit" disabled={serverState.submitting} className="text-center text-sm flex-shrink-0 text-white bg-black border-0 p-2 mt-8 focus:outline-none bg-gradient-to-r hover:from-blue-500 hover:to-green-500 rounded font-bold transition">
+                <button type="submit" disabled={serverState.submitting} className="transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 border border-green-500 text-center text-sm flex-shrink-0 text-white bg-black border-0 p-2 mt-8 focus:outline-none rounded font-bold " style={{boxShadow: "0 2px 10px 0 rgba(0,0,0,.63)"}}>
                   Send message
                 </button>
                 {serverState.status && (
-                    <p className={!serverState.status.ok ? "errorMsg" : ""}>
-                    {serverState.status.msg}
-                    </p>
-                )}
-              </form>
+                      <p className={!serverState.status.ok ? "errorMsg" : ""}>
+                      {serverState.status.msg}
+                      </p>
+                  )}
+                </form>
             </div>                 
           </div> 
     </div>
