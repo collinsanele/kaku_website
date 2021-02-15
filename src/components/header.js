@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => {
                   type="button"
                   onClick={() => setMenuOpen(!menuOpen)}
                 >
-                  <Hamburger rounded size={16}/>
+                  <Hamburger rounded size={32}/>
                 </button>
               </div>
               
