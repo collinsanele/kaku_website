@@ -45,11 +45,11 @@ const Layout = ({ children }) => {
 			    KAKU
 			    </h3>
 			    <div className="flex">
-				<span className="h-6 pr-1"><img src={Phone} alt="Phone:" className="filterg4"/></span>
+				<span className="h-6 pr-1"><img src={Phone} alt="Phone:" className="filterg4 w-4 h-4"/></span>
 				<a className="hover:text-white" href="tel:+2347012809187">+234-701-2809-187</a>
 			    </div>
 			    <div className="flex">
-				<span className="h-6 pr-1"><img src={Email} alt="Email:" className="filterg4"/></span>
+				<span className="h-6 pr-1"><img src={Email} alt="Email:" className="filterg4 w-4 h-4"/></span>
 				<a className="hover:text-white" href="mailto:admin@kaku.com.ng">admin@kaku.com.ng</a>
 			    </div>
 			    <p className="m-0">
