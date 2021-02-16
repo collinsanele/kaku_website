@@ -88,7 +88,7 @@ const IndexPage = () => {
               <h3 className="noto pl-6 text-3xl">About us</h3>
             </div>
             <div className="lg:w-3/4 pt-10 lg:pt-0 leading-loose text-xl">
-              <p className="mb-0">Kaku.ng is a Nigerian-based content creation company that specializes in helping small businesses grow their brand through precision-based written content. We produce both long and short write-ups for just about everyone. Whether you are a SaaS start-up or a manufacturing entity, we have got you covered.</p>
+              <p className="mb-0">Kaku is a Nigerian-based content creation company that specializes in helping small businesses grow their brand through precision-based written content. We produce both long and short write-ups for just about everyone. Whether you are a SaaS start-up or a manufacturing entity, we have got you covered.</p>
             </div>
           </div>
         </div>
@@ -104,7 +104,7 @@ const IndexPage = () => {
               <h3 className="noto pl-6 text-3xl">Who We Are</h3>
             </div>
             <div className="lg:w-3/4 pt-10 lg:pt-0 leading-loose font-medium text-xl">
-              <p className="mb-0">Kaku.ng is an in-house team of content writers. We like to think of ourselves as creative geniuses who have mastered the art of fusing words that have a lasting effect on the reader. Our primary motivation stems from the fact that every brand deserves a voice, and the verdict out there today is that quality content is the best way to raise awareness and engage with your audience.</p>
+              <p className="mb-0">Kaku is an in-house team of content writers. We like to think of ourselves as creative geniuses who have mastered the art of fusing words that have a lasting effect on the reader. Our primary motivation stems from the fact that every brand deserves a voice, and the verdict out there today is that quality content is the best way to raise awareness and engage with your audience.</p>
             </div>
           </div>
         </div>
