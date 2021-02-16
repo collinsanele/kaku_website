@@ -120,13 +120,13 @@ const IndexPage = () => {
               <h3 className="noto pl-6 text-3xl">Our Values</h3>
             </div>
             <div className="lg:w-3/4 pt-10 lg:pt-0 leading-loose text-xl">
-              <p>At Kaku.ng we believe that every business needs to be heard. But in the process of creating content for your brand, we would NEVER cut corners. We guarantee that every piece that comes from us is 100 percent original and plagiarism free.</p>
+              <p>At Kaku we believe that every business needs to be heard. But in the process of creating content for your brand, we would NEVER cut corners. We guarantee that every piece that comes from us is 100 percent original and plagiarism free.</p>
               <p className="mb-0">In a bid to sustain quality delivery, we are always looking for competent hands to join our small team, so if this feels like you, send us a message today. We would love to hear from you.</p>
             </div>
           </div>
         </div>
       </section>
-      <div className="bg-gray-400 py-12 h-full">
+      <div className="bg-gradient-to-r from-blue-900 to-green-900 py-12 h-full">
             <div className="bg-white max-w-lg m-auto rounded object-none object-center" style={{boxShadow: "0 2px 30px 0 rgba(0,0,0,.63)"}}>
               <h2 className="text-5xl font-black text-center pt-12">Let's write amazing stuff together.</h2>
               <form onSubmit={handleOnSubmit} className="p-8 max-w-lg">
