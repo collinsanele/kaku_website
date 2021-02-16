@@ -101,7 +101,7 @@ const Pricing = () => (
                   </svg>
                 </span>Plagiarism checks
               </p>
-              <Link to="/Contact/" className="flex items-center mt-auto text-gray-200 z-5 bg-black bg-gradient-to-r hover:from-blue-500 hover:to-green-500 transition-colors duration-500 ease-in-out border-0 py-2 px-4 w-full focus:outline-none rounded">Select
+              <Link to="/Contact/" className="flex items-center mt-auto text-gray-200 z-5 bg-black transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 border border-green-500 py-2 px-4 w-full focus:outline-none rounded">Select
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
@@ -200,7 +200,7 @@ const Pricing = () => (
                   </svg>
                 </span>Plagiarism checks
               </p>
-              <Link to="/Contact/" className="flex items-center mt-auto text-gray-200 bg-black z-5 bg-gradient-to-r hover:from-blue-500 hover:to-green-500 transition-colors duration-500 ease-in-out border-0 py-2 px-4 w-full focus:outline-none  rounded">Select
+              <Link to="/Contact/" className="flex items-center mt-auto text-gray-200 z-5 bg-black transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 border border-green-500 py-2 px-4 w-full focus:outline-none rounded">Select
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
@@ -313,7 +313,7 @@ const Pricing = () => (
                   </svg>
                 </span>Plagiarism checks
               </p>
-              <Link to="/Contact/" className="flex items-center mt-auto text-gray-200 bg-black z-5 bg-gradient-to-r hover:from-blue-500 hover:to-green-500 transition-colors duration-500 ease-in-out border-0 py-2 px-4 w-full focus:outline-none rounded">Select
+              <Link to="/Contact/" className="flex items-center mt-auto text-gray-200 z-5 bg-black transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 border border-green-500 py-2 px-4 w-full focus:outline-none rounded">Select
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
