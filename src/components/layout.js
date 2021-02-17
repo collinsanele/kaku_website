@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
 		{/* FOOTER */}
         <footer >
-        <div className="bg-black w-full text-gray-400 -mt-7 pt-7">	
+        <div className="bgcolor w-full text-black -mt-7 pt-7">	
 		    <div className="flex flex-wrap w-11/12 lg:w-8/12 mx-auto py-7">
 
 
@@ -44,7 +44,7 @@ const Layout = ({ children }) => {
 			    <h3 className="inline text-4xl font-bold noto text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500">
 			    KAKU
 			    </h3>
-			    <div className="flex">
+			    <div className="flex pt-12">
 				<span className="h-6 pr-1"><img src={Phone} alt="Phone:" className="filterg4 w-4 h-4"/></span>
 				<a className="hover:text-white" href="tel:+2347012809187">+234-701-2809-187</a>
 			    </div>
