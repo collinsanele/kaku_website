@@ -45,11 +45,11 @@ const Layout = ({ children }) => {
 			    KAKU
 			    </h3>
 			    <div className="flex pt-12">
-				<span className="h-6 pr-1"><img src={Phone} alt="Phone:" className="filterg4 w-4 h-4"/></span>
+				<span className="h-6 pr-1"><img src={Phone} alt="Phone:" className=" w-4 h-4"/></span>
 				<a className="hover:text-white" href="tel:+2347012809187">+234-701-2809-187</a>
 			    </div>
 			    <div className="flex">
-				<span className="h-6 pr-1"><img src={Email} alt="Email:" className="filterg4 w-4 h-4"/></span>
+				<span className="h-6 pr-1"><img src={Email} alt="Email:" className=" w-4 h-4"/></span>
 				<a className="hover:text-white" href="mailto:admin@kaku.com.ng">admin@kaku.com.ng</a>
 			    </div>
 			    <p className="m-0">
@@ -147,7 +147,7 @@ const Layout = ({ children }) => {
 			</div>
 		    </div>
 		</div>
-			<div className="w-full flex align-center justify-center bgcolor pb-7 focus:outline-none"><a href="https://www.linkedIn.com/company/kaku-ng"><img src={Linkedin} alt="Linkedin" className="filterg4 focus:outline-none transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110"/></a></div>
+			<div className="w-full flex align-center justify-center bgcolor pb-7 focus:outline-none"><a href="https://www.linkedIn.com/company/kaku-ng"><img src={Linkedin} alt="Linkedin" className=" focus:outline-none transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110"/></a></div>
 	  	<div className="w-full flex align-center justify-center bgcolor text-xs text-black"><p>Copyright © 2021 KAKU Inc.</p></div>
         </footer>
       </div>

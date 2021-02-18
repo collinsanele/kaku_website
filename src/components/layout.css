@@ -605,4 +605,7 @@ pre tt:after {
 .bg-clip-text {
   -webkit-background-clip: text;
 }
+Link {
+  text-decoration: none;
+}
 
