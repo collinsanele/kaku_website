@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => {
                 <ul className="flex flex-col lg:flex-row list-none lg:ml-auto my-0 pt-4">
                   <li className="nav-item">
                     <Link
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue hover:opacity-75"
+                      className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-blue hover:opacity-75"
                       to="/Portfolio/"
                     >
                       Portfolio
@@ -45,7 +45,7 @@ const Header = ({ siteTitle }) => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue hover:opacity-75"
+                      className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-blue hover:opacity-75"
                       to="/Pricing/"
                     >
                       Pricing
@@ -53,7 +53,7 @@ const Header = ({ siteTitle }) => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue hover:opacity-75"
+                      className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-blue hover:opacity-75"
                       to="/Blog/"
                     >
                       Blog
@@ -61,7 +61,7 @@ const Header = ({ siteTitle }) => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue hover:opacity-75"
+                      className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-blue hover:opacity-75"
                       to="/Services/"
                     >
                       Services
@@ -69,7 +69,7 @@ const Header = ({ siteTitle }) => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-blue hover:opacity-75"
+                      className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-blue hover:opacity-75"
                       to="/Contact/"
                     >
                       Contact
