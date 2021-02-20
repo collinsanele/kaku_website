@@ -59,7 +59,7 @@ const Layout = ({ children }) => {
 			    <br/>
 			    Abuja Nigeria.
 			    </p>
-			    <p>Digital by <a className="text-gray-500 font-bold hover:text-blue-900 href="https://hzmid.com">Haze</a></p>
+			    <p>Digital by <a className="text-gray-500 font-bold hover:text-blue-900" href="https://hzmid.com">Haze</a></p>
 			</div>
 
 
