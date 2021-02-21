@@ -66,7 +66,7 @@ const Contact = () => {
                                   <textarea className="mt-1 p-3 block w-full rounded-md bg-gray-100 border-transparent focus:bg-white focus:ring focus:ring-black focus:ring-opacity-100" type="text" name="message" placeholder="ex. Hello! I have a large Blog project and need agency help. My preferred date of completion is in 12 weeks time." rows="3"></textarea>
                               </label>
                             </div>
-                            <button type="submit" disabled={serverState.submitting} className="text-center text-sm flex-shrink-0 text-white p-2 mt-8 focus:outline-none bg-black transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 border border-green-500 font-bold rounded"  style={{boxShadow: "0 2px 10px 0 rgba(0,0,0,.63)"}}>
+                            <button type="submit" disabled={serverState.submitting} className="text-center text-sm flex-shrink-0 text-white p-2 mt-8 focus:outline-none bg-black transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 border border-green-500 font-bold rounded"  style={{boxShadow: "7px 7px 16px #a8abab, -7px 7px 16px #ffffff"}}>
                               Send message
                             </button>
                             {serverState.status && (

@@ -69,7 +69,7 @@ const IndexPage = () => {
                       <h3 className="flex-grow sm:pr-16 text-2xl font-medium text-black mb-0">
                           A one-stop solution to all your brands’ content needs.
                       </h3>
-                      <button className="transition transform duration-1000 ease-in-out hover:-translate-y-1 hover:scale-150 border border-green-500 flex-shrink-0 text-gray-200 border-0 py-2 px-8 focus:outline-none bg-black rounded text-lg mt-10 sm:mt-0" style={{boxShadow: "0 2px 10px 0 rgba(0,0,0,.63)"}}>
+                      <button className="h-16 transition transform duration-1000 ease-in-out hover:-translate-y-1 hover:scale-110 border border-green-500 flex-shrink-0 text-gray-200 border-0 py-2 px-8 focus:outline-none bg-black rounded text-lg mt-10 sm:mt-0" style={{boxShadow: "7px 7px 16px #a8abab, -7px 7px 16px #ffffff"}}>
                               <Link to="/Contact/">
                                     Talk to us
                               </Link>
@@ -148,7 +148,7 @@ const IndexPage = () => {
                       <textarea className="mt-1 p-3 block w-full rounded-md bg-gray-100 border-transparent focus:bg-white focus:ring focus:ring-black focus:ring-opacity-100" type="text" name="message" placeholder="ex. Hello! I have a large Blog project and need agency help. My preferred date of completion is in 12 weeks time." rows="3"></textarea>
                   </label>
                 </div>
-                <button type="submit" disabled={serverState.submitting} className="transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 border border-green-500 text-center text-sm flex-shrink-0 text-white bg-black border-0 p-2 mt-8 focus:outline-none rounded font-bold " style={{boxShadow: "0 2px 10px 0 rgba(0,0,0,.63)"}}>
+                <button type="submit" disabled={serverState.submitting} className="transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 border border-green-500 text-center text-sm flex-shrink-0 text-white bg-black border-0 p-2 mt-8 focus:outline-none rounded font-bold " style={{boxShadow: "7px 7px 16px #a8abab, -7px 7px 16px #ffffff"}}>
                   Send message
                 </button>
                 {serverState.status && (
