@@ -34,9 +34,9 @@ const Header = ({ siteTitle }) => {
                   <li >
                     <Link
                       className="px-3 py-2 flex items-center leading-snug  hover:opacity-75"
-                      to="/Portfolio/"
+                      to="/"
                     >
-                      Portfolio
+                      Home
                     </Link>
                   </li>
                   <li >
@@ -45,22 +45,6 @@ const Header = ({ siteTitle }) => {
                       to="/Pricing/"
                     >
                       Pricing
-                    </Link>
-                  </li>
-                  <li >
-                    <Link
-                      className="px-3 py-2 flex items-center  leading-snug  hover:opacity-75"
-                      to="/Blog/"
-                    >
-                      Blog
-                    </Link>
-                  </li>
-                  <li >
-                    <Link
-                      className="px-3 py-2 flex items-center  leading-snug  hover:opacity-75"
-                      to="/Services/"
-                    >
-                      Services
                     </Link>
                   </li>
                   <li >
@@ -84,9 +68,9 @@ const Header = ({ siteTitle }) => {
                   <li >
                     <Link
                       className="px-3 py-2 flex items-center leading-snug  hover:opacity-75"
-                      to="/Portfolio/"
+                      to="/"
                     >
-                      Portfolio
+                      Home
                     </Link>
                   </li>
                   <li >
@@ -95,22 +79,6 @@ const Header = ({ siteTitle }) => {
                       to="/Pricing/"
                     >
                       Pricing
-                    </Link>
-                  </li>
-                  <li >
-                    <Link
-                      className="px-3 py-2 flex items-center  leading-snug  hover:opacity-75"
-                      to="/Blog/"
-                    >
-                      Blog
-                    </Link>
-                  </li>
-                  <li >
-                    <Link
-                      className="px-3 py-2 flex items-center leading-snug  hover:opacity-75"
-                      to="/Services/"
-                    >
-                      Services
                     </Link>
                   </li>
                   <li >
