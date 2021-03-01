@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
 
 			<div className="w-full lg:w-4/12 px-4 ml-auto text-sm">
 			    <h3 className="inline text-4xl font-bold noto text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500">
-			    KAKU
+			    Kaku
 			    </h3>
 			    <div className="flex pt-12">
 				<span className="h-6 pr-1"><img src={Phone} alt="Phone:" className=" w-4 h-4"/></span>
