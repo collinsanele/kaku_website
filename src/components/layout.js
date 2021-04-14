@@ -14,9 +14,9 @@ import "./layout.css"
 import "fontsource-roboto"
 import "fontsource-open-sans"
 import "fontsource-noto-sans-jp"
-import Phone from '../images/Phone.svg'
-import Email from '../images/Email.svg'
-import Linkedin from '../images/Linkedin.svg'
+import Phone from "../images/Phone.svg"
+import Email from "../images/Email.svg"
+import Linkedin from "../images/Linkedin.svg"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -32,123 +32,145 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div >
+      <div>
         <main>{children}</main>
-		{/* FOOTER */}
-        <footer >
-        <div className="bgcolor w-full text-black -mt-7 pt-7">	
-		    <div className="flex flex-wrap w-11/12 lg:w-8/12 mx-auto py-7">
+        {/* FOOTER */}
+        <footer>
+          <div className="bgcolor w-full text-black -mt-7 pt-7">
+            <div className="flex flex-wrap w-11/12 lg:w-8/12 mx-auto py-7">
+              <div className="w-full lg:w-4/12 px-4 ml-auto text-sm">
+                <h3 className="inline text-4xl font-bold noto text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500">
+                  Kaku
+                </h3>
+                <div className="flex pt-12">
+                  <span className="h-6 pr-1">
+                    <img src={Phone} alt="Phone:" className=" w-4 h-4" />
+                  </span>
+                  <a className="hover:text-white" href="tel:+2347012809187">
+                    +234-701-2809-187
+                  </a>
+                </div>
+                <div className="flex">
+                  <span className="h-6 pr-1">
+                    <img src={Email} alt="Email:" className=" w-4 h-4" />
+                  </span>
+                  <a
+                    className="hover:text-white"
+                    href="mailto:admin@kaku.com.ng"
+                  >
+                    admin@kaku.com.ng
+                  </a>
+                </div>
+                <p className="m-0">
+                  3rd Avenue
+                  <br />
+                  Gwarinpa Estate
+                  <br />
+                  Abuja Nigeria.
+                </p>
+                <p>
+                  Digital by{" "}
+                  <a
+                    className="text-gray-500 font-bold hover:text-blue-900"
+                    href="https://hzmid.com"
+                  >
+                    Haze
+                  </a>
+                </p>
+              </div>
 
+              <div className="w-full lg:w-4/12 px-4 ml-auto pb-7">
+                <span className="block noto uppercase text-xl font-bold mb-2">
+                  Our Company
+                </span>
+                <ul className="list-unstyled">
+                  <li>
+                    <a className="hover:text-white pb-1 text-sm" href="#">
+                      Home
+                    </a>
+                  </li>
+                  <li>
+                    <a className="hover:text-white pb-1 text-sm" href="#">
+                      Blog
+                    </a>
+                  </li>
+                  <li>
+                    <a className="hover:text-white pb-1 text-sm" href="#">
+                      Portfolio
+                    </a>
+                  </li>
+                  <li>
+                    <a className="hover:text-white pb-1 text-sm" href="#">
+                      Pricing
+                    </a>
+                  </li>
+                  <li>
+                    <a className="hover:text-white pb-1 text-sm" href="#">
+                      About Us
+                    </a>
+                  </li>
+                  <li>
+                    <a className="hover:text-white pb-1 text-sm" href="#">
+                      Contact us
+                    </a>
+                  </li>
+                  <li>
+                    <a className="hover:text-white pb-1 text-sm" href="#">
+                      Privacy policy
+                    </a>
+                  </li>
+                  <li>
+                    <a className="hover:text-white pb-1 text-sm" href="#">
+                      Accessibility policy
+                    </a>
+                  </li>
+                </ul>
+              </div>
 
-			<div className="w-full lg:w-4/12 px-4 ml-auto text-sm">
-			    <h3 className="inline text-4xl font-bold noto text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500">
-			    Kaku
-			    </h3>
-			    <div className="flex pt-12">
-				<span className="h-6 pr-1"><img src={Phone} alt="Phone:" className=" w-4 h-4"/></span>
-				<a className="hover:text-white" href="tel:+2347012809187">+234-701-2809-187</a>
-			    </div>
-			    <div className="flex">
-				<span className="h-6 pr-1"><img src={Email} alt="Email:" className=" w-4 h-4"/></span>
-				<a className="hover:text-white" href="mailto:admin@kaku.com.ng">admin@kaku.com.ng</a>
-			    </div>
-			    <p className="m-0">
-			    3rd Avenue
-			    <br/>
-			    Gwarinpa Estate
-			    <br/>
-			    Abuja Nigeria.
-			    </p>
-			    <p>Digital by <a className="text-gray-500 font-bold hover:text-blue-900" href="https://hzmid.com">Haze</a></p>
-			</div>
-
-
-			<div className="w-full lg:w-4/12 px-4 ml-auto pb-7">
-			    <span className="block noto uppercase text-xl font-bold mb-2">
-			    Our Company
-			    </span>
-			    <ul className="list-unstyled">
-				<li>
-				<a className="hover:text-white pb-1 text-sm"
-				href="#">Home
-				</a>
-				</li>
-				<li>
-				<a className="hover:text-white pb-1 text-sm"
-				href="#">Blog
-				</a>
-				</li>
-				<li>
-				<a className="hover:text-white pb-1 text-sm"
-				href="#">Portfolio
-				</a>
-				</li>
-				<li>
-				<a className="hover:text-white pb-1 text-sm"
-				href="#">Pricing
-				</a>
-				</li>
-				<li>
-				<a className="hover:text-white pb-1 text-sm"
-				href="#">About Us
-				</a>
-				</li>
-				<li>
-				<a className="hover:text-white pb-1 text-sm"
-				href="#">Contact us
-				</a>
-				</li>
-				<li>
-				<a className="hover:text-white pb-1 text-sm"
-				href="#">Privacy policy
-				</a>
-				</li>
-				<li>
-				<a className="hover:text-white pb-1 text-sm"
-				href="#">Accessibility policy
-				</a>
-				</li>
-			    </ul>
-			</div>
-
-			<div className="w-full lg:w-4/12 px-4 ml-auto">
-			    <span className="block noto uppercase text-xl font-bold mb-2">
-			    Our Services
-			    </span>
-			  	<ul className="list-unstyled">
-						<li className="hover:text-white pb-1 text-sm">
-						Articles and Blogs
-						</li>
-						<li className="hover:text-white pb-1 text-sm">
-						Advertorials
-						</li>
-						<li className="hover:text-white pb-1 text-sm"
-						>Web and Email Copies
-						</li>
-						<li className="hover:text-white pb-1 text-sm">
-						Scripts
-						</li>
-						<li className="hover:text-white pb-1 text-sm">
-						UX Writing
-						</li>
-						<li className="hover:text-white pb-1 text-sm">
-						Website Content
-						</li>
-						<li className="hover:text-white pb-1 text-sm">
-						Advertisement Strategies
-						</li>
-						<li className="hover:text-white pb-1 text-sm">
-						Media Content
-						</li>
-						<li className="hover:text-white pb-1 text-sm">
-						Competition Research
-						</li>
-			    </ul>
-			</div>
-		    </div>
-		</div>
-			<div className="w-full flex align-center justify-center bgcolor pb-7 focus:outline-none"><a href="https://www.linkedIn.com/company/kaku-ng"><img src={Linkedin} alt="Linkedin" className=" focus:outline-none transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110"/></a></div>
-	  	<div className="w-full flex align-center justify-center bgcolor text-xs text-black"><p>Copyright © 2021 KAKU Inc.</p></div>
+              <div className="w-full lg:w-4/12 px-4 ml-auto">
+                <span className="block noto uppercase text-xl font-bold mb-2">
+                  Our Services
+                </span>
+                <ul className="list-unstyled">
+                  <li className="hover:text-white pb-1 text-sm">
+                    Articles and Blogs
+                  </li>
+                  <li className="hover:text-white pb-1 text-sm">
+                    Advertorials
+                  </li>
+                  <li className="hover:text-white pb-1 text-sm">
+                    Web and Email Copies
+                  </li>
+                  <li className="hover:text-white pb-1 text-sm">Scripts</li>
+                  <li className="hover:text-white pb-1 text-sm">UX Writing</li>
+                  <li className="hover:text-white pb-1 text-sm">
+                    Website Content
+                  </li>
+                  <li className="hover:text-white pb-1 text-sm">
+                    Advertisement Strategies
+                  </li>
+                  <li className="hover:text-white pb-1 text-sm">
+                    Media Content
+                  </li>
+                  <li className="hover:text-white pb-1 text-sm">
+                    Competition Research
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="w-full flex align-center justify-center bgcolor pb-7 focus:outline-none">
+            <a href="https://www.linkedIn.com/company/kaku-ng">
+              <img
+                src={Linkedin}
+                alt="Linkedin"
+                className=" focus:outline-none transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110"
+              />
+            </a>
+          </div>
+          <div className="w-full flex align-center justify-center bgcolor text-xs text-black">
+            <p>Copyright © 2021 KAKU Inc.</p>
+          </div>
         </footer>
       </div>
     </>

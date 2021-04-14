@@ -30,9 +30,13 @@ const HeroImage = () => {
     return <div>Picture not found</div>
   }
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid}
-              style={{height: "100%", width: "100%"}}
-              imgStyle={{ objectFit: "cover"}} />
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      style={{ height: "100%", width: "100%" }}
+      imgStyle={{ objectFit: "cover" }}
+    />
+  )
 }
 
 export default HeroImage
