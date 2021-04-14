@@ -118,7 +118,7 @@ const IndexPage = () => {
                 <h3 className="noto pl-6 text-3xl">About us</h3>
               </div>
               <div className="lg:w-3/4 pt-10 lg:pt-0 leading-loose text-xl">
-                <p className="mb-0">
+                <p className="mb-0" data-aos={"fade-up"}>
                   Kaku is a Nigerian-based content creation company that
                   specializes in helping small businesses grow their brand
                   through precision-based written content. We produce both long
@@ -149,7 +149,7 @@ const IndexPage = () => {
                 <h3 className="noto pl-6 text-3xl">Who We Are</h3>
               </div>
               <div className="lg:w-3/4 pt-10 lg:pt-0 leading-loose font-medium text-xl">
-                <p className="mb-0">
+                <p className="mb-0" data-aos={"fade-up"}>
                   Kaku is an in-house team of content writers. We like to think
                   of ourselves as creative geniuses who have mastered the art of
                   fusing words that have a lasting effect on the reader. Our
@@ -180,7 +180,10 @@ const IndexPage = () => {
                 </div>
                 <h3 className="noto pl-6 text-3xl">Our Values</h3>
               </div>
-              <div className="lg:w-3/4 pt-10 lg:pt-0 leading-loose text-xl">
+              <div
+                className="lg:w-3/4 pt-10 lg:pt-0 leading-loose text-xl"
+                data-aos={"fade-up"}
+              >
                 <p>
                   At Kaku we believe that every business needs to be heard. But
                   in the process of creating content for your brand, we would
