@@ -62,7 +62,9 @@ const IndexPage = () => {
             <div className="w-1/2">
               <p
                 className="text-right text-gray-200 font-black my-auto tracking-tighter text-7xl md:text-8xl lg:text-9xl"
-                data-aos={"fade-left"}
+                data-aos={"zoom-in"}
+                data-aos-duration={"3000"}
+                data-aos-delay={"300"}
               >
                 Kaku
               </p>
@@ -71,6 +73,7 @@ const IndexPage = () => {
               <p
                 className="mb-0 text-left pl-4 max-w-sm text-gray-200 text-md"
                 data-aos={"fade-right"}
+                data-aos-delay={"600"}
               >
                 Developing ever-green{" "}
                 <span className="text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500">
