@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => {
     <nav class="shadow fixed bgcolor z-30 w-full">
       <div class=" mx-auto py-3 md:flex md:justify-between md:items-center relative">
         <div class="flex justify-between items-center">
-          <div class="flex justify-center items-center text-black text-2xl hover:text-gray-900 ml-4">
+          <div class="flex justify-center items-center text-2xl ml-4 text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500">
             <Link to="/" class="">
               {siteTitle}
             </Link>
