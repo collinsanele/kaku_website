@@ -72,8 +72,9 @@ const IndexPage = () => {
             <div className="w-1/2">
               <p
                 className="mb-0 text-left pl-4 max-w-sm text-gray-200 text-md"
-                data-aos={"fade-right"}
-                data-aos-delay={"600"}
+                data-aos={"fade-left"}
+                data-aos-delay={"1000"}
+                data-aos-duration={"3000"}
               >
                 Developing ever-green{" "}
                 <span className="text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500">
