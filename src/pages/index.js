@@ -11,6 +11,7 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 
 const IndexPage = () => {
+
   useEffect(() => {
     AOS.init({
       duration: 2000,
@@ -51,8 +52,9 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <Fixedbutton />
-      <div className="bgcolor">
-        <div className="h-14"></div>
+      <main className="bgcolor">
+        <div className="h-14">
+        </div>
 
         {/* hero section */}
         <div className="w-full bg-cover relative" style={{ height: `70vh` }}>
@@ -72,8 +74,8 @@ const IndexPage = () => {
             <div className="w-1/2">
               <p
                 className="mb-0 text-left pl-4 max-w-sm text-gray-200 text-md"
-                data-aos={"fade-left"}
-                data-aos-delay={"3000"}
+                data-aos={"zoom-in"}
+                data-aos-delay={"2000"}
                 data-aos-duration={"2000"}
               >
                 Developing ever-green{" "}
@@ -85,6 +87,7 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
+
         {/* cta section */}
         <section className="w-11/12 lg:w-8/12 mx-auto">
           <div className="py-24">
@@ -103,6 +106,7 @@ const IndexPage = () => {
             </div>
           </div>
         </section>
+
         {/* About us */}
         <section className="w-full bg-black text-gray-200">
           <div className="w-11/12 lg:w-8/12 mx-auto align-center justify-center">
@@ -134,6 +138,7 @@ const IndexPage = () => {
             </div>
           </div>
         </section>
+
         {/* Who we are */}
         <section className="w-full bg-gray-200 text-black">
           <div className="w-11/12 lg:w-8/12 mx-auto align-center justify-center">
@@ -166,6 +171,7 @@ const IndexPage = () => {
             </div>
           </div>
         </section>
+
         {/* our values */}
         <section className="w-full bg-black text-gray-200">
           <div className="w-11/12 lg:w-8/12 mx-auto align-center justify-center">
@@ -204,7 +210,9 @@ const IndexPage = () => {
             </div>
           </div>
         </section>
-        <div className="bg-gradient-to-r from-blue-900 to-green-900 py-12 h-full">
+
+        {/* form section */}
+        <section className="bg-gradient-to-r from-blue-900 to-green-900 py-12 h-full">
           <div
             className="bg-white max-w-lg m-auto rounded object-none object-center"
             style={{ boxShadow: "0 2px 30px 0 rgba(0,0,0,.63)" }}
@@ -276,8 +284,8 @@ const IndexPage = () => {
               )}
             </form>
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
     </Layout>
   )
 }

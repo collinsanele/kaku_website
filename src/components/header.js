@@ -6,20 +6,20 @@ import { Squeeze as Hamburger } from "hamburger-react"
 const Header = ({ siteTitle }) => {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
-    <nav class="shadow fixed bgcolor z-30 w-full">
-      <div class=" mx-auto py-3 md:flex md:justify-between md:items-center relative">
-        <div class="flex justify-between items-center">
-          <div class="flex justify-center items-center noto text-2xl ml-4 text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500">
-            <Link to="/" class="">
+    <nav className="shadow fixed bgcolor z-30 w-full">
+      <div className=" mx-auto py-3 md:flex md:justify-between md:items-center relative">
+        <div className="flex justify-between items-center">
+          <div className="flex justify-center items-center noto text-2xl ml-4 text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500">
+            <Link to="/">
               {siteTitle}
             </Link>
           </div>
 
           {/* <!-- Mobile menu button --> */}
-          <div class="flex md:hidden">
+          <div className="flex md:hidden">
             <button
               type="button"
-              class="text-black hover:text-gray-900 focus:outline-none focus:text-gray-900 z-50"
+              className="text-black hover:text-gray-900 focus:outline-none focus:text-gray-900 z-50"
               aria-label="toggle menu"
               onClick={() => setMenuOpen(!menuOpen)}
             >
