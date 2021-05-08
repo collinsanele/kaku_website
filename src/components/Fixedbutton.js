@@ -4,19 +4,20 @@ import Speechbubble from "../images/speechbubble.svg"
 
 const Fixedbutton = () => {
 
-//   useEffect(() => {
-//     const blackbutton = document.querySelector(".blackbutton")
-//     const pop = e => {
-//       if (window.scrollY > 890) {
-//         blackbutton.classList.add("scrolled")
-//         console.log("added")
-//       } else {
-//         blackbutton.classList.remove("scrolled")
-//         console.log("removed")
-//       }
-//     }
-//     window.addEventListener("scroll", pop)
-//   }, [])
+  useEffect(() => {
+        
+    const blackbutton = document.querySelector(".blackbutton")
+    const pop = e => {
+      if (window.scrollY > 890) {
+        blackbutton.classList.add("scrolled")
+        console.log("added")
+      } else {
+        blackbutton.classList.remove("scrolled")
+        console.log("removed")
+      }
+    }
+    window.addEventListener("scroll", pop)
+  }, [])
 
   return (
     <div

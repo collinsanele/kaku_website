@@ -3,13 +3,11 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Fixedbutton from "../components/Fixedbutton"
 
 const Pricing = () => (
   <Layout>
     <SEO title="Pricing" />
     <section className="text-black body-font overflow-hidden bgcolor">
-      <Fixedbutton />
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="text-4xl lg:text-5xl font-semibold mb-2 text-gray-900 noto">

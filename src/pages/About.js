@@ -3,18 +3,16 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Fixedbutton from "../components/Fixedbutton";
 
 
-const Services = () => (
+const About = () => (
   <Layout >
-    <SEO title="Services" />
+    <SEO title="About" />
     <div  className="bgcolor">
-      <Fixedbutton/>
       <div className="h-14"></div>
-      <h2 className="h-screen">Services</h2>
+      <h2 className="h-screen">About</h2>
     </div>
   </Layout>
 );
 
-export default Services;
+export default About;
