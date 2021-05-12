@@ -10,6 +10,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 const IndexPage = () => {
+
   useEffect(() => {
     AOS.init({
       duration: 2000
@@ -29,6 +30,7 @@ const IndexPage = () => {
       form.reset()
     }
   }
+  
   const handleOnSubmit = e => {
     e.preventDefault()
     const form = e.target

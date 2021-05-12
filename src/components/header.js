@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 import React, { useState } from 'react'
 import { Squeeze as Hamburger } from 'hamburger-react'
 
-import logo from '../images/kaku-logo-purple.png'
+import  kakulogo  from '../images/kakulogo.png'
 
 const Header = ({ siteTitle }) => {
+      
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
@@ -14,7 +15,7 @@ const Header = ({ siteTitle }) => {
         <div className='flex justify-between items-center'>
           <div className='flex justify-center items-center relative'>
             <Link className='opacity-0 ' to='/'>{siteTitle}</Link>
-            <Link className='absolute w-24 ml-20' to='/'><img src={logo} alt='logo'/></Link>
+            <Link className='absolute w-24 ml-20' to='/'><img src={kakulogo} alt='logo'/></Link>
           </div>
 
           {/* <!-- Mobile menu button --> */}
