@@ -63,7 +63,7 @@ const IndexPage = () => {
               content that helps your brand connect with your ideal audience.
               Its the perfect match!</p>
                         <Link
-              to='/pricing/' className="mt-8" ><button className="px-3 py-2 text-sm font-medium text-white uppercase bg-purple-874 rounded-md hover:bg-purple-900 focus:outline-none focus:bg-purple-900">Check our prices</button> </Link>
+              to='/Pricing/'  ><button className="px-3 py-2 mt-8 text-sm font-medium text-white uppercase bg-purple-874 rounded-md hover:bg-purple-900 focus:outline-none focus:bg-purple-900">Check our prices</button> </Link>
                     </div>
                 </div>
         
@@ -75,7 +75,7 @@ const IndexPage = () => {
     
     {/* services section */}
     <section>
-      <h2 class="text-2xl font-bold text-purple-874">Our Services</h2>
+      <h2 class="text-center text-2xl font-bold text-purple-874">Our Services</h2>
         <div class="container px-6 py-8 mx-auto">
             <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                 <div>
@@ -85,7 +85,7 @@ const IndexPage = () => {
     
                     <h2 class="mt-4 text-xl font-semibold text-purple-874">Content Writing</h2>
     
-                    <p class="mt-2 text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce tortor, ac sed malesuada blandit. Et mi gravida sem feugiat.</p>
+                    <p class="mt-2 text-gray-500 dark:text-gray-400">What are your brand’s goals? More conversion, engagement, exposure? You name it! We create highly-captivating content that prompts action from your readers. Bringing you a step closer to landing your next big client.</p>
                 </div>
     
                 <div>
@@ -95,7 +95,7 @@ const IndexPage = () => {
     
                     <h2 class="mt-4 text-xl font-semibold  text-purple-874">Articles and Blog posts</h2>
                     
-                    <p class="mt-2 text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce tortor, ac sed malesuada blandit. Et mi gravida sem feugiat.</p>
+                    <p class="mt-2 text-gray-500 dark:text-gray-400">From your industry’s trending topics to informative how-to’s, add value and connect with your target audience with articles that have been optimized for search engines.</p>
                 </div>
                 
                 <div>
@@ -105,7 +105,7 @@ const IndexPage = () => {
                 
                     <h2 class="mt-4 text-xl font-semibold text-purple-874">Technical Writing</h2>
                 
-                    <p class="mt-2 text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce tortor, ac sed malesuada blandit. Et mi gravida sem feugiat.</p>
+                    <p class="mt-2 text-gray-500 dark:text-gray-400">In need of who can creatively express all the boring technical jargon? Our diverse industry specialists are at hand to create content tailored to your niche.</p>
                 </div>
             </div>
         </div>
@@ -120,7 +120,7 @@ const IndexPage = () => {
     
                     <h2 class="mt-4 text-xl font-semibold text-purple-874">UI & UX Writing</h2>
     
-                    <p class="mt-2 text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce tortor, ac sed malesuada blandit. Et mi gravida sem feugiat.</p>
+                    <p class="mt-2 text-gray-500 dark:text-gray-400">Provide a memorable digital experience for your everyone that visits your platform by ensuring your message is clear and concise. Let our team of creatives infuse your brand’s persona into every aspect of your platform.</p>
                 </div>
     
                 <div>
@@ -130,7 +130,7 @@ const IndexPage = () => {
     
                     <h2 class="mt-4 text-xl font-semibold text-purple-874">Script Writing</h2>
                     
-                    <p class="mt-2 text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce tortor, ac sed malesuada blandit. Et mi gravida sem feugiat.</p>
+                    <p class="mt-2 text-gray-500 dark:text-gray-400">Getting started on your podcast or YouTube channel? or Running a short ad campaign for your brand? Let us develop scripts that engage and keep your listeners or viewers while at the same time, expressing your brands.</p>
                 </div>
                
             </div>
