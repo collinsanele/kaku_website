@@ -52,30 +52,27 @@ const IndexPage = () => {
     <Layout>
       <SEO title='Home' />
       <main className='bgcolor'>
-      
-        <section className='w-full text-purple-874 flex flex-col md:flex-row'>
-          <div className='w-full md:w-1/2 mt-20  ml-6 md:ml-40 md:flex md:flex-col md:items-center'>
-            <h1 className='text-4xl md:text-6xl md:text-center font-medium '>
-              A One-Stop Solution To All Your Brands' Contents Needs
-            </h1>
-            <p className='mt-12 '>
-              Brands need to stand out in today's digital space and we create
+    
+      {/* hero section */}
+        <section class="container px-6 py-16 mx-auto">
+            <div class="items-center md:flex">
+                <div class="w-full md:w-1/2">
+                    <div class="max-w-lg">
+                        <h1 class="text-2xl font-semibold text-purple-874 md:text-3xl">A One-Stop Solution To All Your Brands' Contents Needs</h1>
+                        <p class="mt-2 text-gray-600 dark:text-gray-400">Brands need to stand out in today's digital space and we create
               content that helps your brand connect with your ideal audience.
-              Its the perfect match!
-            </p>
-            <Link
-              to='/pricing/'
-              className='flex w-40 my-12 bg-white text-green-900 rounded-3xl px-2 py-4 transition-colors duration-200 transform '
-            >
-              <p className='mx-auto'>Check our prices</p>
-            </Link>
-          </div>
-
-          <div className='flex items-center justify-center w-full md:w-1/2 mt-20 md:mt-0 md:ml-60'>
-            <img src={blogging} alt='blogging' className='' />
-          </div>
+              Its the perfect match!</p>
+                        <Link
+              to='/pricing/' ><button class="px-3 py-2 mt-4 text-sm font-medium text-white uppercase bg-purple-874 rounded-md hover:bg-purple-900 focus:outline-none focus:bg-purple-900">Check our prices</button> </Link>
+                    </div>
+                </div>
+        
+                <div class="flex items-center justify-center w-full mt-6 md:mt-0 md:w-1/2">
+                    <img class="w-full h-full max-w-2xl"  src={blogging} alt='blogging'/>
+                </div>
+            </div>
         </section>
-
+        
         {/* form section */}
         <section className='bg-gradient-to-r from-blue-900 to-green-900 py-12 h-full'>
           <div
