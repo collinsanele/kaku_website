@@ -36,9 +36,9 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         {/* FOOTER */}
         <footer>
-          <div className="bgcolor w-full text-black -mt-7 pt-7">
+          <div className="bg-gray-101 w-full text-black -mt-7 pt-7">
             <div className="flex flex-wrap w-11/12 lg:w-8/12 mx-auto py-7">
-              <div className="w-full lg:w-4/12 px-4 ml-auto text-sm">
+              <div className="w-full lg:w-4/12 px-4 ml-auto text-sm mb-7 md:mb-0">
                 <h3 className="inline text-4xl font-bold noto text-transparent bg-gradient-to-r bg-clip-text from-purple-874 to-pink-900">
                   Kaku
                 </h3>
@@ -68,7 +68,7 @@ const Layout = ({ children }) => {
                   <br />
                   Abuja Nigeria.
                 </p>
-                <p>
+                <p >
                   Digital by{" "}
                   <a
                     className="text-gray-500 font-bold hover:text-green-500"
@@ -159,7 +159,8 @@ const Layout = ({ children }) => {
               </div>
             </div>
           </div>
-          <div className="w-full flex align-center justify-center bgcolor pb-7 focus:outline-none">
+
+          <div className="w-full flex align-center justify-center bg-gray-101 pb-7 focus:outline-none">
             <a href="https://www.linkedIn.com/company/kaku-ng">
               <img
                 src={Linkedin}
@@ -168,7 +169,7 @@ const Layout = ({ children }) => {
               />
             </a>
           </div>
-          <div className="w-full flex align-center justify-center bgcolor text-xs text-black">
+          <div className="w-full flex align-center justify-center bg-gray-101 text-xs text-black mb-5">
             <p>Copyright © 2021 KAKU Inc.</p>
           </div>
         </footer>

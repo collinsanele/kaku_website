@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <nav className='shadow fixed bgcolor z-30 w-full'>
+    <nav className='fixed bg-gray-101 z-30 w-full'>
       <div className=' mx-auto py-3 md:flex md:justify-between md:items-center relative'>
         <div className='flex justify-between items-center'>
           <div className='flex justify-center items-center relative'>
@@ -80,7 +80,7 @@ const Header = ({ siteTitle }) => {
         {/* drop-down menu */}
         <div
           className={
-            ' flex justify-center absolute inset-0 top-0 right-0 w-full h-screen bgcolor items-center transition transform duration-500 ease-in-out z-30 ' +
+            ' flex justify-center absolute inset-0 top-0 right-0 w-full h-screen bg-gray-101 items-center transition transform duration-500 ease-in-out z-30 ' +
             (menuOpen
               ? ' opacity-100 translate-y-0'
               : 'opacity-0 -translate-y-full')

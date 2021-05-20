@@ -11,6 +11,9 @@ module.exports = {
       colors: {
         purple: {
           874: '#874cc1'
+        },
+        gray: {
+          101: '#f9f9f9'
         }
       }
     }

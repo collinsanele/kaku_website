@@ -20,7 +20,7 @@ export default function HTML(props) {
         key={`loader`}
               id="___loader"
               style={{
-                background: "#e6eaea",
+                background: "#f9f9f9",
                 position: "absolute",
                 display: "flex",
                 alignItems: "center",

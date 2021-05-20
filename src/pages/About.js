@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const About = () => (
   <Layout >
     <SEO title="About" />
-    <div  className="bgcolor">
+    <div  className="bg-gray-101">
       <div className="h-14"></div>
       <h2 className="h-screen">About</h2>
     </div>

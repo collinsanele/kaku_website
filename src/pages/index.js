@@ -55,12 +55,12 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title='Home' />
-      <main className='bgcolor'>
+      <main className=''>
         {/* hero section */}
         <section className='container px-6 py-16 mx-auto'>
           <div className='items-center md:flex'>
             <div className='w-full md:w-1/2'>
-              <div className='max-w-lg'>
+              <div className='max-w-lg mt-10 md:mt-0'>
                 <h1 className='noto text-2xl font-semibold text-purple-874 md:text-3xl'>
                   A One-Stop Solution To All Your Brands' Contents Needs
                 </h1>
@@ -89,11 +89,11 @@ const IndexPage = () => {
 
         {/* services section */}
         <section>
-          <h2 className='text-center text-4xl font-bold text-purple-874 mb-6'>
+          <h2 className='text-center text-3xl md:text-4xl font-bold text-purple-874 mb-6'>
             Our Services
           </h2>
           <div className='container px-6 py-8 mx-auto'>
-            <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
+            <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3'>
               <div className='flex flex-col'>
                 <img src={content_m} alt='' className='w-32 self-center' />
 
@@ -139,8 +139,8 @@ const IndexPage = () => {
             </div>
           </div>
 
-          <div className='container px-6 py-8 mx-auto'>
-            <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
+          <div className='container px-6 pb-8 mx-auto'>
+            <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3'>
               <div className='flex flex-col'>
                 <img src={typewriter} alt='' className='w-56 self-center' />
 

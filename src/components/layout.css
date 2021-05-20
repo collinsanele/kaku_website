@@ -19,10 +19,14 @@ body {
   -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  background-image: url('../images/backgroundafrica.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 
-.bgcolor {
-  background-color: #e6eaea;
+.bg-gray-101 {
+  background-color: #f9f9f9;
 }
 
 .noto {
