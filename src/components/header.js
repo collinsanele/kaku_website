@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => {
         <div className='flex justify-between items-center'>
           <div className='flex justify-center items-center relative'>
             <Link className='opacity-0 ' to='/'>{siteTitle}</Link>
-            <Link className='absolute w-24 ml-20' to='/'><img src={kakulogo} alt='logo'/></Link>
+            <Link className='absolute w-24 ml-20 z-50' to='/'><img src={kakulogo} alt='logo'/></Link>
           </div>
 
           {/* <!-- Mobile menu button --> */}
@@ -34,7 +34,7 @@ const Header = ({ siteTitle }) => {
         {/* <!-- normal nav menu --> */}
         <div className='md:flex items-center hidden md:block '>
           <ul className='flex flex-row list-none md:ml-auto '>
-            <li>
+            <li className='hoverLine'>
               <Link
                 className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
                 to='/About/'
@@ -42,7 +42,7 @@ const Header = ({ siteTitle }) => {
                 About
               </Link>
             </li>
-            <li>
+            <li className='hoverLine'>
               <Link
                 className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
                 to='/Portfolio/'
@@ -50,7 +50,7 @@ const Header = ({ siteTitle }) => {
                 Portfolio
               </Link>
             </li>
-            <li>
+            <li className='hoverLine'>
               <Link
                 className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
                 to='/Pricing/'
@@ -58,7 +58,7 @@ const Header = ({ siteTitle }) => {
                 Pricing & Plans
               </Link>
             </li>
-            <li>
+            <li className='hoverLine'>
               <Link
                 className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
                 to='/Contact/'
@@ -66,7 +66,7 @@ const Header = ({ siteTitle }) => {
                 Contact
               </Link>
             </li>
-            <li>
+            <li className='hoverLine'>
               <Link
                 className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
                 to='/Blog/'
@@ -86,9 +86,9 @@ const Header = ({ siteTitle }) => {
               : 'opacity-0 -translate-y-full')
           }
         >
-          <div className='flex flex-col justify-center item-center text-center '>
+          <div className='flex flex-col justify-center items-center text-center text-3xl '>
             <ul className='flex flex-col list-none md:ml-auto '>
-              <li>
+              <li className='hoverLine'>
                 <Link
                   className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
                   to='/About/'
@@ -96,7 +96,7 @@ const Header = ({ siteTitle }) => {
                   About
                 </Link>
               </li>
-              <li>
+              <li className='hoverLine'>
                 <Link
                   className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
                   to='/Portfolio/'
@@ -104,7 +104,7 @@ const Header = ({ siteTitle }) => {
                   Portfolio
                 </Link>
               </li>
-              <li>
+              <li className='hoverLine'>
                 <Link
                   className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
                   to='/Pricing/'
@@ -112,7 +112,7 @@ const Header = ({ siteTitle }) => {
                   Pricing & Plans
                 </Link>
               </li>
-              <li>
+              <li className='hoverLine'>
                 <Link
                   className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
                   to='/Contact/'
@@ -120,7 +120,7 @@ const Header = ({ siteTitle }) => {
                   Contact
                 </Link>
               </li>
-              <li>
+              <li className='hoverLine'>
                 <Link
                   className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
                   to='/Blog/'

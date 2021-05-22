@@ -20,7 +20,7 @@ const Pricing = () => (
             <div className="h-full p-6 rounded-lg border-2 border-black flex flex-col relative overflow-hidden">
               <p
                 style={{ width: "fit-content" }}
-                className="text-sm tracking-widest mb-1 font-semibold text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500"
+                className="text-sm tracking-widest mb-1 font-semibold text-transparent bg-gradient-to-r bg-clip-text from-purple-874 to-blue-600"
               >
                 STARTER
               </p>
@@ -208,7 +208,7 @@ const Pricing = () => (
               </p>
               <Link
                 to="/Contact/"
-                className="flex items-center mt-auto text-gray-200 z-5 bg-black transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 border border-green-500 py-2 px-4 w-full focus:outline-none rounded"
+                className="flex items-center mt-auto text-gray-200 z-5 bg-black transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 border-2 border-purple-874 py-2 px-4 w-full focus:outline-none rounded"
               >
                 Select
                 <svg
@@ -230,7 +230,7 @@ const Pricing = () => (
             <div className="h-full p-6 rounded-lg border-2 border-black flex flex-col relative overflow-hidden">
               <p
                 style={{ width: "fit-content" }}
-                className="text-sm tracking-widest mb-1 font-semibold text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500"
+                className="text-sm tracking-widest mb-1 font-semibold text-transparent bg-gradient-to-r bg-clip-text from-purple-874 to-blue-600"
               >
                 STANDARD
               </p>
@@ -434,7 +434,7 @@ const Pricing = () => (
               </p>
               <Link
                 to="/Contact/"
-                className="flex items-center mt-auto text-gray-200 z-5 bg-black transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 border border-green-500 py-2 px-4 w-full focus:outline-none rounded"
+                className="flex items-center mt-auto text-gray-200 z-5 bg-black transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 border-2 border-purple-874 py-2 px-4 w-full focus:outline-none rounded"
               >
                 Select
                 <svg
@@ -456,7 +456,7 @@ const Pricing = () => (
             <div className="h-full p-6 rounded-lg border-2 border-black flex flex-col relative overflow-hidden">
               <p
                 style={{ width: "fit-content" }}
-                className="text-sm tracking-widest mb-1 font-semibold text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500"
+                className="text-sm tracking-widest mb-1 font-semibold text-transparent bg-gradient-to-r bg-clip-text from-purple-874 to-blue-600"
               >
                 PREMIUM
               </p>
@@ -692,7 +692,7 @@ const Pricing = () => (
               </p>
               <Link
                 to="/Contact/"
-                className="flex items-center mt-auto text-gray-200 z-5 bg-black transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 border border-green-500 py-2 px-4 w-full focus:outline-none rounded"
+                className="flex items-center mt-auto text-gray-200 z-5 bg-black transition transform duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 border-2 border-purple-874 py-2 px-4 w-full focus:outline-none rounded"
               >
                 Select
                 <svg

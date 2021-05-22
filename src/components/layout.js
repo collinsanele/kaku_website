@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
           <div className="bg-gray-101 w-full text-black -mt-7 pt-7">
             <div className="flex flex-wrap w-11/12 lg:w-8/12 mx-auto py-7">
               <div className="w-full lg:w-4/12 px-4 ml-auto text-sm mb-7 md:mb-0">
-                <h3 className="inline text-4xl font-bold noto text-transparent bg-gradient-to-r bg-clip-text from-purple-874 to-pink-900">
+                <h3 className="inline text-4xl font-bold noto text-transparent bg-gradient-to-r bg-clip-text from-purple-874 via-purple-874 to-blue-600">
                   Kaku
                 </h3>
                 <div className="flex pt-12">

@@ -19,14 +19,12 @@ body {
   -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  
+  /* africa background */
   background-image: url('../images/backgroundafrica.png');
   background-size: cover;
   background-repeat: no-repeat;
   
-}
-
-.bg-gray-101 {
-  background-color: #f9f9f9;
 }
 
 .noto {
@@ -43,9 +41,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
 }
-link {
-  text-decoration: none;
-}
+
 
 .experimental {
   background-color: #00000046;
@@ -57,4 +53,31 @@ link {
 
 .blackbutton {
   background-color: #000;
+}
+
+/* hover underline on links with .hoverLine*/
+.hoverLine > a {
+  position: relative;
+}
+
+.hoverLine > a:after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 5px;
+  display: block;
+  margin-top: 35px;
+  right: 0;
+  background-color: #874cc1;
+  transition: 0.4s ease;
+}
+
+.hoverLine:hover > a:after {
+  width: 100%;
+  left: 0;
+  background: #874cc1;
+}
+
+a:active {
+  color: #874cc1;
 }
