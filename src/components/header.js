@@ -37,22 +37,6 @@ const Header = ({ siteTitle }) => {
             <li className='hoverLine'>
               <Link
                 className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
-                to='/About/'
-              >
-                About
-              </Link>
-            </li>
-            <li className='hoverLine'>
-              <Link
-                className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
-                to='/Portfolio/'
-              >
-                Portfolio
-              </Link>
-            </li>
-            <li className='hoverLine'>
-              <Link
-                className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
                 to='/Pricing/'
               >
                 Pricing & Plans
@@ -64,14 +48,6 @@ const Header = ({ siteTitle }) => {
                 to='/Contact/'
               >
                 Contact
-              </Link>
-            </li>
-            <li className='hoverLine'>
-              <Link
-                className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
-                to='/Blog/'
-              >
-                Blog
               </Link>
             </li>
           </ul>
@@ -91,22 +67,6 @@ const Header = ({ siteTitle }) => {
               <li className='hoverLine'>
                 <Link
                   className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
-                  to='/About/'
-                >
-                  About
-                </Link>
-              </li>
-              <li className='hoverLine'>
-                <Link
-                  className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
-                  to='/Portfolio/'
-                >
-                  Portfolio
-                </Link>
-              </li>
-              <li className='hoverLine'>
-                <Link
-                  className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
                   to='/Pricing/'
                 >
                   Pricing & Plans
@@ -118,14 +78,6 @@ const Header = ({ siteTitle }) => {
                   to='/Contact/'
                 >
                   Contact
-                </Link>
-              </li>
-              <li className='hoverLine'>
-                <Link
-                  className='px-3 py-2 flex items-center leading-snug  hover:text-purple-874'
-                  to='/Blog/'
-                >
-                  Blog
                 </Link>
               </li>
             </ul>
