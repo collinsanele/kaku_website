@@ -88,9 +88,9 @@ const Layout = ({ children }) => {
                   Digital by{' '}
                   <a
                     className='text-gray-500 font-bold hover:text-green-500'
-                    href='https://hzmid.com'
+                    href='https://github.com/collinsanele'
                   >
-                    Haze
+                    Collins Anele
                   </a>
                 </p>
               </div>
